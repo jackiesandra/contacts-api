@@ -1,0 +1,16 @@
+{
+  "name": "contacts-api",
+  "version": "1.0.0",
+  "description": "Contacts API for BYUI project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongodb": "^6.21.0"
+  }
+}
