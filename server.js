@@ -6,6 +6,9 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Contacts API is running");
+});
 
 app.use('/contacts', contactsRoutes);
 
